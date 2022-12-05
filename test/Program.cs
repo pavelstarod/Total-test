@@ -22,8 +22,6 @@ void ChangeArray(string[] array, string[] array2)
     }
 }
 
-
-
 Console.WriteLine("Введите через пробел строки массива: ");
 string[] array = Console.ReadLine().Split();
 string[] array2 = new string[array.Length];
